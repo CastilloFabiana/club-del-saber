@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Club del Saber</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <h1>Club del Saber</h1>
+    <p class="subtitulo">by Faby</p>
+    <p class="slogan">Tu club de aprendizaje, creatividad, motivación y resultados</p>
+    <div class="hamburguesa" onclick="toggleMenu()">☰</div>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="page/nosotros.html">Nosotros</a></li>
+        <li><a href="page/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+   
+  </header>
+
+  <main>
+    <section data-aos="fade-up">
+      <h2>¿Qué ofrecemos?</h2>
+      <p>Clases personalizadas para estudiantes de primaria, con enfoque en comprensión, creatividad y motivación.</p>
+      <img src="imagenes/imagen re.jpg" alt="Niños estudiando felices" />
+    </section>
+
+    <section data-aos="fade-right" class="grid-container">
+      <div>
+        <h3>Lengua</h3>
+         <img src="imagenes/imagen len1.jpg" alt="lengua" />
+        <p>Lectura comprensiva, redacción y ortografía.</p>
+      </div>
+      <div>
+        <h3>Matemática</h3>
+         <img src="imagenes/matemáticas ani.jpg" alt="matemáticas" />
+        <p>Resolución de problemas, cálculo mental y juegos lógicos.</p>
+      </div>
+      <div>
+        <h3>Apoyo emocional</h3>
+         <img src="imagenes/imagen apo.jpg" alt="apoyo" />
+        <p>Motivación, confianza y acompañamiento personalizado.</p>
+      </div>
+    </section>
+
+    
+    <section data-aos="fade-up" class="botones-materias">
+      <a href="#" class="boton-materia matematicas">
+        <span>Matemáticas</span>
+      </a>
+      <a href="#" class="boton-materia lengua">
+        <span>Lengua</span>
+      </a>
+      <a href="#" class="boton-materia apoyo">
+        <span>Apoyo emocional</span>
+      </a>
+    </section>
+
+    <section data-aos="fade-up">
+      <h2>Testimonios</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Comentario</th>
+        </tr>
+        <tr>
+          <td>Lucía</td>
+          <td>Mi hijo mejoró muchísimo en matemáticas. ¡Gracias Club del Saber!</td>
+        </tr>
+        <tr>
+          <td>Martín</td>
+          <td>Las clases son divertidas y muy claras. ¡Recomendado!</td>
+        </tr>
+      </table>
+    </section>
+
+    <section data-aos="zoom-in">
+      <h2>Video de presentación</h2>
+      <iframe width="300" height="200" src="https://www.youtube.com/embed/TQ6cbr9W3AM" title="Presentación Club del Saber"></iframe>
+    </section>
+  </main>
+<main>
+  ...
+  
+  
+  <footer>
+    <p>&copy; 2025 Club del Saber - Todos los derechos reservados</p>
+  </footer>
+
+  
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
